@@ -46,7 +46,7 @@ class BF:
             for j in range(N):
                 if (self.paths[i].distance + self.node_matrix[i][j] <
                         self.paths[j].distance):
-                    print("GREŠKA: Negativan ciklus.")
+                    print("GRESKA: Negativan ciklus.")
                     return 0
         return 0
 
@@ -73,7 +73,7 @@ class BF:
             path.append(self.paths[cnt].prev)
             cnt = self.paths[cnt].prev
         path.reverse()
-        print("Najkraća putanja:", ' -> '.join(map(str, path)))
+        print("Najkraca putanja:", ' -> '.join(map(str, path)))
         return 0
 
     def generateRandGraph(self, N, lower_lim, upper_lim):
@@ -93,7 +93,7 @@ def printMenu():
     print("Bellman-Fordov algoritem - izbira:")
     print("1) Preberi graf iz datoteke")
     print("2) Generiraj nakljucni graf z n vozlisci in cenami od a do b")
-    print("3) Poženi algoritem")
+    print("3) Pozeni algoritem")
     print("4) Ispisi seznam vozlisc")
     print("5) Ispisi najkrajso pot")
     print("6) Konec")
@@ -101,15 +101,15 @@ def printMenu():
 
 def initGraph():
     print(
-        "Greška: graf nije inicijalizovan! Izaberite opciju 1 ili 2, "
+        "Greska: graf nije inicijalizovan! Izaberite opciju 1 ili 2, "
         "a zatim 3, pre nego što pokušate 4!"
     )
 
 
 def BF_app():
     print(
-        "Greška: Bellman-Ford algoritam nije primenjen! Izaberite opciju 3 "
-        "pre nego što pokušate 4!"
+        "Greska: Bellman-Ford algoritam nije primenjen! Izaberite opciju 3 "
+        "pre nego sto pokusate 4!"
     )
 
 
@@ -134,7 +134,7 @@ def main():
             if error == -1:
                 initGraph()
         elif select == 4:
-            node = int(input("Broj čvora:\n"))
+            node = int(input("Broj cvora:\n"))
             error = program.printAttribute(node)
             if error == -1:
                 initGraph()
