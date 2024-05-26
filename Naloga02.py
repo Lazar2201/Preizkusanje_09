@@ -99,11 +99,17 @@ def printMenu():
 
 
 def initGraph():
-    print("Greška: graf nije inicijalizovan! Izaberite opciju 1 ili 2, a zatim 3, pre nego što pokušate 4!")
+    print(
+        "Greška: graf nije inicijalizovan! Izaberite opciju 1 ili 2, "
+        "a zatim 3, pre nego što pokušate 4!"
+    )
 
 
 def BF_app():
-    print("Greška: Bellman-Ford algoritam nije primenjen! Izaberite opciju 3 pre nego što pokušate 4!")
+    print(
+        "Greška: Bellman-Ford algoritam nije primenjen! Izaberite opciju 3 "
+        "pre nego što pokušate 4!"
+    )
 
 
 def main():
