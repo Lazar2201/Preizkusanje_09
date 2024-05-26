@@ -119,7 +119,7 @@ def main():
 
     while True:
         printMenu()
-        select = int(input())
+        select = int(input("Vnesite izbiro: "))
         if select == 1:
             file_name = input("Ime datoteke:\n")
             program.readGraph(file_name)
