@@ -92,7 +92,7 @@ class BF:
 def printMenu():
     print("Bellman-Fordov algoritem - izbira:")
     print("1) Preberi graf iz datoteke")
-    print("2) Generiraj nakljucni graf z n vozlisci in cenami od a do b")
+    print("2) Generiraj nakljucni graf z n vozlisci")
     print("3) Poženi algoritem")
     print("4) Ispisi seznam vozlisc")
     print("5) Ispisi najkrajso pot")
@@ -154,7 +154,7 @@ def main():
 if __name__ == "__main__":
     # Define the sequence of inputs to simulate user interaction
     inputs = iter([
-        '2', '5', '1', '10',  # Generate random graph with 5 nodes and edge weights between 1 and 10
+        '2', '5', '1', '10',  
         '3', '0',              # Run algorithm starting from node 0
         '4', '2',              # Print attributes of node 2
         '5', '4',              # Print shortest path to node 4
