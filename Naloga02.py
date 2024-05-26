@@ -160,6 +160,6 @@ if __name__ == "__main__":
         '5', '4',              # Print shortest path to node 4
         '6'                    # Exit
     ])
-    
+
     with patch('builtins.input', lambda _: next(inputs)):
         main()
