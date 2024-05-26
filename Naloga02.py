@@ -1,10 +1,12 @@
 import sys
 import random
 
+
 class Node:
     def __init__(self):
         self.prev = -1
         self.distance = 0
+
 
 class BF:
     def __init__(self):
@@ -33,12 +35,16 @@ class BF:
         for _ in range(N - 1):
             for i in range(N):
                 for j in range(N):
-                    if self.paths[i].distance + self.node_matrix[i][j] < self.paths[j].distance:
-                        self.paths[j].distance = self.paths[i].distance + self.node_matrix[i][j]
+                    if (self.paths[i].distance + self.node_matrix[i][j] <
+                            self.paths[j].distance):
+                        self.paths[j].distance = (
+                            self.paths[i].distance + self.node_matrix[i][j]
+                        )
                         self.paths[j].prev = i
         for i in range(N):
             for j in range(N):
-                if self.paths[i].distance + self.node_matrix[i][j] < self.paths[j].distance:
+                if (self.paths[i].distance + self.node_matrix[i][j] <
+                        self.paths[j].distance):
                     print("GREŠKA: Negativan ciklus.")
                     return 0
         return 0
@@ -81,6 +87,7 @@ class BF:
     def clearMatrix(self):
         self.node_matrix = []
 
+
 def printMenu():
     print("Bellman-Fordov algoritem - izbira:")
     print("1) Preberi graf iz datoteke")
@@ -90,11 +97,14 @@ def printMenu():
     print("5) Ispisi najkrajso pot")
     print("6) Konec")
 
+
 def initGraph():
     print("Greška: graf nije inicijalizovan! Izaberite opciju 1 ili 2, a zatim 3, pre nego što pokušate 4!")
 
+
 def BF_app():
     print("Greška: Bellman-Ford algoritam nije primenjen! Izaberite opciju 3 pre nego što pokušate 4!")
+
 
 def main():
     select = 0
@@ -132,6 +142,7 @@ def main():
                 BF_app()
         elif select == 6:
             break
+
 
 if __name__ == "__main__":
     main()
