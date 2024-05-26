@@ -64,7 +64,7 @@ jobs:
 
     - name: Run script
       run: |
-        python main.py
+        python Naloga02.py
 
     - name: Generate artifacts
       run: |
