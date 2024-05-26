@@ -1,5 +1,6 @@
 import sys
 import random
+from unittest.mock import patch
 
 
 class Node:
@@ -151,4 +152,14 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # Define the sequence of inputs to simulate user interaction
+    inputs = iter([
+        '2', '5', '1', '10',  # Generate random graph with 5 nodes and edge weights between 1 and 10
+        '3', '0',              # Run algorithm starting from node 0
+        '4', '2',              # Print attributes of node 2
+        '5', '4',              # Print shortest path to node 4
+        '6'                    # Exit
+    ])
+    
+    with patch('builtins.input', lambda _: next(inputs)):
+        main()
