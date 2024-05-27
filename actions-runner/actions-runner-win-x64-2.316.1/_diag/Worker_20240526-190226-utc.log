@@ -1,0 +1,2795 @@
+[2024-05-26 19:02:26Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2024-05-26 19:02:26Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:26Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:26Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\.credentials'
+[2024-05-26 19:02:26Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:26Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:26Z INFO HostContext] Well known config file 'Runner': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\.runner'
+[2024-05-26 19:02:26Z INFO Worker] Version: 2.316.1
+[2024-05-26 19:02:26Z INFO Worker] Commit: 9ac138d10eac15c71493f004f1b1bc919ead40de
+[2024-05-26 19:02:26Z INFO Worker] Culture: en-US
+[2024-05-26 19:02:26Z INFO Worker] UI Culture: en-US
+[2024-05-26 19:02:26Z INFO Worker] Waiting to receive the job message from the channel.
+[2024-05-26 19:02:26Z INFO ProcessChannel] Receiving message of length 22936, with hash 'eb376e9892675bdb715b0048eec202fafae0fa623be83f6c5fac029ef193b485'
+[2024-05-26 19:02:26Z INFO Worker] Message received.
+[2024-05-26 19:02:26Z INFO Worker] Job message:
+ {
+  "fileTable": [
+    ".github/workflows/preizkusanje.yml"
+  ],
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "actions/checkout",
+        "ref": "v2",
+        "repositoryType": "GitHub",
+        "path": ""
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 68,
+        "col": 13,
+        "lit": "Checkout repository"
+      },
+      "contextName": "__actions_checkout",
+      "condition": "success()",
+      "id": "19335348-c115-5a80-7623-31a327fcb691",
+      "name": "__actions_checkout"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 71,
+        "col": 13,
+        "lit": "Run script locally"
+      },
+      "contextName": "__run",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 72,
+              "col": 12,
+              "lit": "python Naloga02.py"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "3fd5ed3b-dc63-593b-cd78-96179aeb580f",
+      "name": "__run"
+    }
+  ],
+  "variables": {
+    "system.isScheduled": {
+      "value": "False"
+    },
+    "system.servertype": {
+      "value": "Hosted"
+    },
+    "system.culture": {
+      "value": ""
+    },
+    "system.pipelineStartTime": {
+      "value": "2024-05-26 19:02:24+00:00"
+    },
+    "system.runner.lowdiskspacethreshold": {
+      "value": "100"
+    },
+    "DistributedTask.NewActionMetadata": {
+      "value": "true"
+    },
+    "DistributedTask.EnableCompositeActions": {
+      "value": "true"
+    },
+    "DistributedTask.EnhancedAnnotations": {
+      "value": "true"
+    },
+    "DistributedTask.UploadStepSummary": {
+      "value": "true"
+    },
+    "DistributedTask.ForceGithubJavascriptActionsToNode16": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode12Action": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode16Action": {
+      "value": "true"
+    },
+    "DistributedTask.LogTemplateErrorsAsDebugMessages": {
+      "value": "true"
+    },
+    "DistributedTask.AllowRunnerContainerHooks": {
+      "value": "true"
+    },
+    "DistributedTask.DeprecateStepOutputCommands": {
+      "value": "true"
+    },
+    "DistributedTask.UseWhich2": {
+      "value": "true"
+    },
+    "DistributedTask.DetailUntarFailure": {
+      "value": "true"
+    },
+    "DistributedTask.UseActionArchiveCache": {
+      "value": "true"
+    },
+    "DistributedTask.EnableJobServerQueueTelemetry": {
+      "value": "true"
+    },
+    "DistributedTask.MarkJobAsFailedOnWorkerCrash": {
+      "value": "true"
+    },
+    "Actions.EnableHttpRedirects": {
+      "value": "true"
+    },
+    "system.teamProjectId": {
+      "value": "00000000-0000-0000-0000-000000000000"
+    },
+    "build.buildId": {
+      "value": "14"
+    },
+    "build.containerId": {
+      "value": "17134789"
+    },
+    "system.workflowFilePath": {
+      "value": ".github/workflows/preizkusanje.yml"
+    },
+    "system.phaseDisplayName": {
+      "value": "run-locally"
+    },
+    "system.phaseId": {
+      "value": "c87a6b1e-9445-5be1-93bc-5e443e807b51"
+    },
+    "system.phaseName": {
+      "value": "run-locally"
+    },
+    "system.phaseAttempt": {
+      "value": "1"
+    },
+    "system.jobIdentifier": {
+      "value": "run-locally.__default"
+    },
+    "system.jobAttempt": {
+      "value": "1"
+    },
+    "System.JobPositionInPhase": {
+      "value": "1"
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1"
+    },
+    "system.github.job": {
+      "value": "run-locally"
+    },
+    "system.jobDisplayName": {
+      "value": "run-locally"
+    },
+    "system.jobId": {
+      "value": "a84cab50-81db-52ed-5ec5-00b63f446852"
+    },
+    "system.jobName": {
+      "value": "__default"
+    },
+    "system.github.token.permissions": {
+      "value": "{\"Contents\":\"read\",\"Metadata\":\"read\",\"Packages\":\"read\"}"
+    },
+    "system.github.token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.runnerEnvironment": {
+      "value": "self-hosted"
+    },
+    "system.github.results_endpoint": {
+      "value": "https://results-receiver.actions.githubusercontent.com/"
+    },
+    "system.github.results_upload_with_sdk": {
+      "value": "True"
+    },
+    "system.orchestrationId": {
+      "value": "f2ccd7f9-82d7-4c2a-851d-7df0149eff47.run-locally.__default"
+    },
+    "system.runnerGroupName": {
+      "value": "Default"
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "00000000-0000-0000-0000-000000000000",
+    "planType": "Actions",
+    "version": 41,
+    "planId": "f2ccd7f9-82d7-4c2a-851d-7df0149eff47",
+    "planGroup": "Actions:00000000-0000-0000-0000-000000000000:1",
+    "artifactUri": "vstfs:///Build/Build/14",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {},
+      "id": 3,
+      "name": "Preizkusanje_09"
+    },
+    "owner": {
+      "_links": {},
+      "id": 3,
+      "name": "Lazar2201"
+    }
+  },
+  "timeline": {
+    "id": "f2ccd7f9-82d7-4c2a-851d-7df0149eff47",
+    "changeId": 0,
+    "location": null
+  },
+  "jobId": "a84cab50-81db-52ed-5ec5-00b63f446852",
+  "jobDisplayName": "run-locally",
+  "jobName": "__default",
+  "requestId": 30,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "ServerId": "6ce5a66d-4043-4228-a6d8-86beecb4c1ab",
+          "ServerName": "6ChMJZHkcolBhkQUAqT38oPLcHejAEdjLNciU0ZQ8IYkh6lDwy",
+          "CacheServerUrl": "https://acghubeus2.actions.githubusercontent.com/6ChMJZHkcolBhkQUAqT38oPLcHejAEdjLNciU0ZQ8IYkh6lDwy/",
+          "FeedStreamUrl": "https://results-receiver.actions.githubusercontent.com/_ws/ingest.sock",
+          "ResultsServiceUrl": "https://results-receiver.actions.githubusercontent.com/",
+          "ConnectivityChecks": "[\"https://acghubeus0.actions.githubusercontent.com/_apis/health\",\"https://results-receiver.actions.githubusercontent.com/health\",\"https://actions-results-receiver-production.githubapp.com/health\",\"https://pipelinesghubeus5.actions.githubusercontent.com/_apis/health\"]"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://pipelinesghubeus5.actions.githubusercontent.com/6ChMJZHkcolBhkQUAqT38oPLcHejAEdjLNciU0ZQ8IYkh6lDwy/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ]
+  },
+  "contextData": {
+    "github": {
+      "t": 2,
+      "d": [
+        {
+          "k": "ref",
+          "v": "refs/heads/master"
+        },
+        {
+          "k": "sha",
+          "v": "cefd0ab77ddc0a6e0b156fb4ca469f11c7376884"
+        },
+        {
+          "k": "repository",
+          "v": "Lazar2201/Preizkusanje_09"
+        },
+        {
+          "k": "repository_owner",
+          "v": "Lazar2201"
+        },
+        {
+          "k": "repository_owner_id",
+          "v": "115449134"
+        },
+        {
+          "k": "repositoryUrl",
+          "v": "git://github.com/Lazar2201/Preizkusanje_09.git"
+        },
+        {
+          "k": "run_id",
+          "v": "9245529370"
+        },
+        {
+          "k": "run_number",
+          "v": "14"
+        },
+        {
+          "k": "retention_days",
+          "v": "90"
+        },
+        {
+          "k": "run_attempt",
+          "v": "1"
+        },
+        {
+          "k": "artifact_cache_size_limit",
+          "v": "10"
+        },
+        {
+          "k": "repository_visibility",
+          "v": "public"
+        },
+        {
+          "k": "repo-self-hosted-runners-disabled",
+          "v": false
+        },
+        {
+          "k": "enterprise-managed-business-id",
+          "v": ""
+        },
+        {
+          "k": "repository_id",
+          "v": "806198570"
+        },
+        {
+          "k": "actor_id",
+          "v": "115449134"
+        },
+        {
+          "k": "actor",
+          "v": "Lazar2201"
+        },
+        {
+          "k": "triggering_actor",
+          "v": "Lazar2201"
+        },
+        {
+          "k": "workflow",
+          "v": "Bellman-Ford CI"
+        },
+        {
+          "k": "head_ref",
+          "v": ""
+        },
+        {
+          "k": "base_ref",
+          "v": ""
+        },
+        {
+          "k": "event_name",
+          "v": "push"
+        },
+        {
+          "k": "event",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "after",
+                "v": "cefd0ab77ddc0a6e0b156fb4ca469f11c7376884"
+              },
+              {
+                "k": "base_ref",
+                "v": null
+              },
+              {
+                "k": "before",
+                "v": "c1a8a33492a6b0ef385219a7c26712970c886e12"
+              },
+              {
+                "k": "commits",
+                "v": {
+                  "t": 1,
+                  "a": [
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "lazarlakikv5@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Laki2201"
+                              },
+                              {
+                                "k": "username",
+                                "v": "LisBike"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "lazarlakikv5@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Laki2201"
+                              },
+                              {
+                                "k": "username",
+                                "v": "LisBike"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "cefd0ab77ddc0a6e0b156fb4ca469f11c7376884"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Updated runner"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2024-05-26T21:02:12+02:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "98b6d32f99382d83acf92a388d8a013af51ac2c8"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/Lazar2201/Preizkusanje_09/commit/cefd0ab77ddc0a6e0b156fb4ca469f11c7376884"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "compare",
+                "v": "https://github.com/Lazar2201/Preizkusanje_09/compare/c1a8a33492a6...cefd0ab77ddc"
+              },
+              {
+                "k": "created",
+                "v": false
+              },
+              {
+                "k": "deleted",
+                "v": false
+              },
+              {
+                "k": "forced",
+                "v": false
+              },
+              {
+                "k": "head_commit",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "author",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "lazarlakikv5@gmail.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "Laki2201"
+                          },
+                          {
+                            "k": "username",
+                            "v": "LisBike"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "committer",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "lazarlakikv5@gmail.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "Laki2201"
+                          },
+                          {
+                            "k": "username",
+                            "v": "LisBike"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "distinct",
+                      "v": true
+                    },
+                    {
+                      "k": "id",
+                      "v": "cefd0ab77ddc0a6e0b156fb4ca469f11c7376884"
+                    },
+                    {
+                      "k": "message",
+                      "v": "Updated runner"
+                    },
+                    {
+                      "k": "timestamp",
+                      "v": "2024-05-26T21:02:12+02:00"
+                    },
+                    {
+                      "k": "tree_id",
+                      "v": "98b6d32f99382d83acf92a388d8a013af51ac2c8"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/Lazar2201/Preizkusanje_09/commit/cefd0ab77ddc0a6e0b156fb4ca469f11c7376884"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "pusher",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "email",
+                      "v": "115449134+Lazar2201@users.noreply.github.com"
+                    },
+                    {
+                      "k": "name",
+                      "v": "Lazar2201"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "ref",
+                "v": "refs/heads/master"
+              },
+              {
+                "k": "repository",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "allow_forking",
+                      "v": true
+                    },
+                    {
+                      "k": "archive_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/{archive_format}{/ref}"
+                    },
+                    {
+                      "k": "archived",
+                      "v": false
+                    },
+                    {
+                      "k": "assignees_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/assignees{/user}"
+                    },
+                    {
+                      "k": "blobs_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/git/blobs{/sha}"
+                    },
+                    {
+                      "k": "branches_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/branches{/branch}"
+                    },
+                    {
+                      "k": "clone_url",
+                      "v": "https://github.com/Lazar2201/Preizkusanje_09.git"
+                    },
+                    {
+                      "k": "collaborators_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/collaborators{/collaborator}"
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/comments{/number}"
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/commits{/sha}"
+                    },
+                    {
+                      "k": "compare_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/compare/{base}...{head}"
+                    },
+                    {
+                      "k": "contents_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/contents/{+path}"
+                    },
+                    {
+                      "k": "contributors_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/contributors"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": 1716741770.0
+                    },
+                    {
+                      "k": "default_branch",
+                      "v": "master"
+                    },
+                    {
+                      "k": "deployments_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/deployments"
+                    },
+                    {
+                      "k": "description",
+                      "v": null
+                    },
+                    {
+                      "k": "disabled",
+                      "v": false
+                    },
+                    {
+                      "k": "downloads_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/downloads"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/events"
+                    },
+                    {
+                      "k": "fork",
+                      "v": false
+                    },
+                    {
+                      "k": "forks",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/forks"
+                    },
+                    {
+                      "k": "full_name",
+                      "v": "Lazar2201/Preizkusanje_09"
+                    },
+                    {
+                      "k": "git_commits_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/git/commits{/sha}"
+                    },
+                    {
+                      "k": "git_refs_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/git/refs{/sha}"
+                    },
+                    {
+                      "k": "git_tags_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/git/tags{/sha}"
+                    },
+                    {
+                      "k": "git_url",
+                      "v": "git://github.com/Lazar2201/Preizkusanje_09.git"
+                    },
+                    {
+                      "k": "has_discussions",
+                      "v": false
+                    },
+                    {
+                      "k": "has_downloads",
+                      "v": true
+                    },
+                    {
+                      "k": "has_issues",
+                      "v": true
+                    },
+                    {
+                      "k": "has_pages",
+                      "v": false
+                    },
+                    {
+                      "k": "has_projects",
+                      "v": true
+                    },
+                    {
+                      "k": "has_wiki",
+                      "v": true
+                    },
+                    {
+                      "k": "homepage",
+                      "v": null
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/hooks"
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/Lazar2201/Preizkusanje_09"
+                    },
+                    {
+                      "k": "id",
+                      "v": 806198570.0
+                    },
+                    {
+                      "k": "is_template",
+                      "v": false
+                    },
+                    {
+                      "k": "issue_comment_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/issues/comments{/number}"
+                    },
+                    {
+                      "k": "issue_events_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/issues/events{/number}"
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/issues{/number}"
+                    },
+                    {
+                      "k": "keys_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/keys{/key_id}"
+                    },
+                    {
+                      "k": "labels_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/labels{/name}"
+                    },
+                    {
+                      "k": "language",
+                      "v": "JavaScript"
+                    },
+                    {
+                      "k": "languages_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/languages"
+                    },
+                    {
+                      "k": "license",
+                      "v": null
+                    },
+                    {
+                      "k": "master_branch",
+                      "v": "master"
+                    },
+                    {
+                      "k": "merges_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/merges"
+                    },
+                    {
+                      "k": "milestones_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/milestones{/number}"
+                    },
+                    {
+                      "k": "mirror_url",
+                      "v": null
+                    },
+                    {
+                      "k": "name",
+                      "v": "Preizkusanje_09"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "R_kgDOMA2dKg"
+                    },
+                    {
+                      "k": "notifications_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/notifications{?since,all,participating}"
+                    },
+                    {
+                      "k": "open_issues",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "open_issues_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "owner",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/u/115449134?v=4"
+                          },
+                          {
+                            "k": "email",
+                            "v": "115449134+Lazar2201@users.noreply.github.com"
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/Lazar2201/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/Lazar2201/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/Lazar2201/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/Lazar2201/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/Lazar2201"
+                          },
+                          {
+                            "k": "id",
+                            "v": 115449134.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "Lazar2201"
+                          },
+                          {
+                            "k": "name",
+                            "v": "Lazar2201"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "U_kgDOBuGdLg"
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/Lazar2201/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/Lazar2201/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/Lazar2201/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/Lazar2201/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/Lazar2201/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "User"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/Lazar2201"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "private",
+                      "v": false
+                    },
+                    {
+                      "k": "pulls_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/pulls{/number}"
+                    },
+                    {
+                      "k": "pushed_at",
+                      "v": 1716750140.0
+                    },
+                    {
+                      "k": "releases_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/releases{/id}"
+                    },
+                    {
+                      "k": "size",
+                      "v": 34.0
+                    },
+                    {
+                      "k": "ssh_url",
+                      "v": "git@github.com:Lazar2201/Preizkusanje_09.git"
+                    },
+                    {
+                      "k": "stargazers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/stargazers"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/statuses/{sha}"
+                    },
+                    {
+                      "k": "subscribers_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/subscribers"
+                    },
+                    {
+                      "k": "subscription_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/subscription"
+                    },
+                    {
+                      "k": "svn_url",
+                      "v": "https://github.com/Lazar2201/Preizkusanje_09"
+                    },
+                    {
+                      "k": "tags_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/tags"
+                    },
+                    {
+                      "k": "teams_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/teams"
+                    },
+                    {
+                      "k": "topics",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "trees_url",
+                      "v": "https://api.github.com/repos/Lazar2201/Preizkusanje_09/git/trees{/sha}"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2024-05-26T18:46:55Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/Lazar2201/Preizkusanje_09"
+                    },
+                    {
+                      "k": "visibility",
+                      "v": "public"
+                    },
+                    {
+                      "k": "watchers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "watchers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "web_commit_signoff_required",
+                      "v": false
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "sender",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/115449134?v=4"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/users/Lazar2201/events{/privacy}"
+                    },
+                    {
+                      "k": "followers_url",
+                      "v": "https://api.github.com/users/Lazar2201/followers"
+                    },
+                    {
+                      "k": "following_url",
+                      "v": "https://api.github.com/users/Lazar2201/following{/other_user}"
+                    },
+                    {
+                      "k": "gists_url",
+                      "v": "https://api.github.com/users/Lazar2201/gists{/gist_id}"
+                    },
+                    {
+                      "k": "gravatar_id",
+                      "v": ""
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/Lazar2201"
+                    },
+                    {
+                      "k": "id",
+                      "v": 115449134.0
+                    },
+                    {
+                      "k": "login",
+                      "v": "Lazar2201"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "U_kgDOBuGdLg"
+                    },
+                    {
+                      "k": "organizations_url",
+                      "v": "https://api.github.com/users/Lazar2201/orgs"
+                    },
+                    {
+                      "k": "received_events_url",
+                      "v": "https://api.github.com/users/Lazar2201/received_events"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/users/Lazar2201/repos"
+                    },
+                    {
+                      "k": "site_admin",
+                      "v": false
+                    },
+                    {
+                      "k": "starred_url",
+                      "v": "https://api.github.com/users/Lazar2201/starred{/owner}{/repo}"
+                    },
+                    {
+                      "k": "subscriptions_url",
+                      "v": "https://api.github.com/users/Lazar2201/subscriptions"
+                    },
+                    {
+                      "k": "type",
+                      "v": "User"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/users/Lazar2201"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "k": "server_url",
+          "v": "https://github.com"
+        },
+        {
+          "k": "api_url",
+          "v": "https://api.github.com"
+        },
+        {
+          "k": "graphql_url",
+          "v": "https://api.github.com/graphql"
+        },
+        {
+          "k": "ref_name",
+          "v": "master"
+        },
+        {
+          "k": "ref_protected",
+          "v": false
+        },
+        {
+          "k": "ref_type",
+          "v": "branch"
+        },
+        {
+          "k": "secret_source",
+          "v": "Actions"
+        },
+        {
+          "k": "workflow_ref",
+          "v": "Lazar2201/Preizkusanje_09/.github/workflows/preizkusanje.yml@refs/heads/master"
+        },
+        {
+          "k": "workflow_sha",
+          "v": "cefd0ab77ddc0a6e0b156fb4ca469f11c7376884"
+        }
+      ]
+    },
+    "run-feature-flags": {
+      "t": 2,
+      "d": [
+        {
+          "k": "actions_stream_logs_via_results_service",
+          "v": true
+        },
+        {
+          "k": "actions_use_results_service",
+          "v": true
+        },
+        {
+          "k": "larger_runners_custom_image_generation",
+          "v": false
+        }
+      ]
+    },
+    "partialrerun": false,
+    "needs": {
+      "t": 2
+    },
+    "vars": null,
+    "inputs": {
+      "t": 2
+    },
+    "matrix": null,
+    "strategy": {
+      "t": 2,
+      "d": [
+        {
+          "k": "fail-fast",
+          "v": true
+        },
+        {
+          "k": "job-index",
+          "v": 0.0
+        },
+        {
+          "k": "job-total",
+          "v": 1.0
+        },
+        {
+          "k": "max-parallel",
+          "v": 1.0
+        }
+      ]
+    },
+    "EndpointsOverride": null
+  }
+}
+[2024-05-26 19:02:26Z INFO JobRunner] Job ID a84cab50-81db-52ed-5ec5-00b63f446852
+[2024-05-26 19:02:26Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin\Runner.Worker.dll
+[2024-05-26 19:02:26Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:26Z INFO ConfigurationStore] binPath: C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin
+[2024-05-26 19:02:26Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:26Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:26Z INFO ConfigurationStore] RootFolder: C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1
+[2024-05-26 19:02:26Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:26Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:26Z INFO HostContext] Well known config file 'Runner': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\.runner'
+[2024-05-26 19:02:26Z INFO ConfigurationStore] ConfigFilePath: C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\.runner
+[2024-05-26 19:02:26Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:26Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:26Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\.credentials'
+[2024-05-26 19:02:26Z INFO ConfigurationStore] CredFilePath: C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\.credentials
+[2024-05-26 19:02:26Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:26Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:26Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\.credentials_migrated'
+[2024-05-26 19:02:26Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\.credentials_migrated
+[2024-05-26 19:02:26Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:26Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:26Z INFO HostContext] Well known config file 'Service': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\.service'
+[2024-05-26 19:02:26Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\.service
+[2024-05-26 19:02:26Z INFO ConfigurationStore] Read setting file: 315 chars
+[2024-05-26 19:02:26Z INFO JobRunner] Creating job server with URL: https://pipelinesghubeus5.actions.githubusercontent.com/6ChMJZHkcolBhkQUAqT38oPLcHejAEdjLNciU0ZQ8IYkh6lDwy/
+[2024-05-26 19:02:26Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-05-26 19:02:27Z INFO Worker] Listening for cancel message from the channel.
+[2024-05-26 19:02:27Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2024-05-26 19:02:27Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-05-26 19:02:28Z INFO JobServer] Creating websocket client ...wss://results-receiver.actions.githubusercontent.com/_ws/ingest.sock
+[2024-05-26 19:02:28Z INFO JobServer] Attempting to start websocket client with delay 00:00:00.
+[2024-05-26 19:02:28Z INFO JobServerQueue] Initializing results client
+[2024-05-26 19:02:28Z INFO JobServerQueue] Start process web console line queue.
+[2024-05-26 19:02:28Z INFO JobServerQueue] Start process file upload queue.
+[2024-05-26 19:02:28Z INFO JobServerQueue] Start results file upload queue.
+[2024-05-26 19:02:28Z INFO JobServerQueue] Starting results-based upload queue...
+[2024-05-26 19:02:28Z INFO JobServerQueue] Start process timeline update queue.
+[2024-05-26 19:02:28Z INFO ExecutionContext] Initialize GitHub context
+[2024-05-26 19:02:28Z INFO ExecutionContext] Initialize Env context
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Diag': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_diag'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Diag': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_diag'
+[2024-05-26 19:02:28Z INFO JobRunner] Starting the job execution context.
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:28Z INFO JobRunner] Validating directory permissions for: 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Tools': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_tool'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Temp': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_temp'
+[2024-05-26 19:02:28Z INFO JobRunner] Getting job extension.
+[2024-05-26 19:02:28Z INFO JobRunner] Initialize job. Getting all job steps.
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Diag': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_diag'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Diag': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_diag'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:28Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\.credentials'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:28Z INFO HostContext] Well known config file 'SetupInfo': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\.setup_info'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:28Z INFO PipelineDirectoryManager] Loading tracking config if exists: C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_PipelineMapping\Lazar2201/Preizkusanje_09\PipelineFolder.json
+[2024-05-26 19:02:28Z INFO PipelineDirectoryManager] Updating job run properties.
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:28Z INFO JobExtension] Downloading actions
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Actions': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_actions'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Actions': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_actions'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:28Z INFO HostContext] Well known directory 'Actions': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_actions'
+[2024-05-26 19:02:28Z INFO JobServer] Successfully started websocket client.
+[2024-05-26 19:02:28Z INFO ActionManager] Save archive 'https://api.github.com/repos/actions/checkout/zipball/ee0669bd1cc54295c223e0bb666b733df41de1c5' into C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_actions\_temp_cd207870-f49e-4bc2-be1b-b47685307bf0\59cac9d6-da39-431d-9080-7e415efc4de4.zip.
+[2024-05-26 19:02:28Z INFO JobServerQueue] Try to append 1 batches web console lines for record '8e504e40-58b5-4afa-a100-2b66c8176d43', success rate: 1/1.
+[2024-05-26 19:02:29Z INFO JobServerQueue] Try to append 1 batches web console lines for record '8e504e40-58b5-4afa-a100-2b66c8176d43', success rate: 1/1.
+[2024-05-26 19:02:29Z INFO JobServerQueue] Job timeline record has been updated for the first time.
+[2024-05-26 19:02:29Z INFO ActionManager] Request URL: https://api.github.com/repos/actions/checkout/zipball/ee0669bd1cc54295c223e0bb666b733df41de1c5 X-GitHub-Request-Id: EF86:12D269:23678A:338D33:66538746 Http Status: OK
+[2024-05-26 19:02:29Z INFO ActionManager] Finished getting action repository.
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Actions': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_actions'
+[2024-05-26 19:02:30Z INFO ActionManifestManager] Load schema file with definitions: [
+  "null",
+  "boolean",
+  "number",
+  "string",
+  "sequence",
+  "mapping",
+  "any",
+  "action-root",
+  "inputs",
+  "input",
+  "outputs",
+  "output-definition",
+  "runs",
+  "container-runs",
+  "container-runs-args",
+  "container-runs-env",
+  "node-runs",
+  "plugin-runs",
+  "composite-runs",
+  "composite-steps",
+  "composite-step",
+  "run-step",
+  "uses-step",
+  "container-runs-context",
+  "output-value",
+  "input-default-context",
+  "non-empty-string",
+  "string-steps-context",
+  "boolean-steps-context",
+  "step-env",
+  "step-if",
+  "step-with"
+]
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Actions': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_actions'
+[2024-05-26 19:02:30Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node12",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2024-05-26 19:02:30Z INFO ActionManager] Action node.js file: dist/index.js, no more preparation.
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Actions': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_actions'
+[2024-05-26 19:02:30Z INFO ActionManager] Load action that reference repository from 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_actions\actions\checkout\v2'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Actions': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_actions'
+[2024-05-26 19:02:30Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node12",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2024-05-26 19:02:30Z INFO ActionManager] Action pre node.js file: N/A.
+[2024-05-26 19:02:30Z INFO ActionManager] Action node.js file: dist/index.js.
+[2024-05-26 19:02:30Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2024-05-26 19:02:30Z INFO JobExtension] Adding .
+[2024-05-26 19:02:30Z INFO JobExtension] Adding .
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Diag': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_diag'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Diag': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_diag'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Diag': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_diag'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Diag': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_diag'
+[2024-05-26 19:02:30Z INFO JobExtension] Total accessible running process: 250.
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:30Z INFO JobExtension] Start checking server connectivity.
+[2024-05-26 19:02:30Z INFO JobExtension] Check server connectivity for https://acghubeus0.actions.githubusercontent.com/_apis/health.
+[2024-05-26 19:02:30Z INFO JobExtension] Check server connectivity for https://results-receiver.actions.githubusercontent.com/health.
+[2024-05-26 19:02:30Z INFO JobExtension] Check server connectivity for https://actions-results-receiver-production.githubapp.com/health.
+[2024-05-26 19:02:30Z INFO JobExtension] Check server connectivity for https://pipelinesghubeus5.actions.githubusercontent.com/_apis/health.
+[2024-05-26 19:02:30Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "setup_job",
+  "type": "runner",
+  "stage": "Pre",
+  "stepId": "8e504e40-58b5-4afa-a100-2b66c8176d43",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 3,
+  "startTime": "2024-05-26T19:02:28.1682261Z",
+  "finishTime": "2024-05-26T19:02:30.2945824Z"
+}.
+[2024-05-26 19:02:30Z INFO JobRunner] Total job steps: 2.
+[2024-05-26 19:02:30Z INFO JobRunner] Run all job steps.
+[2024-05-26 19:02:30Z INFO StepsRunner] Processing step: DisplayName='Checkout repository'
+[2024-05-26 19:02:30Z INFO StepsRunner] Evaluating: success()
+[2024-05-26 19:02:30Z INFO StepsRunner] Result: true
+[2024-05-26 19:02:30Z INFO StepsRunner] Starting the step.
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:30Z INFO StepsRunner] Which2: 'chcp'
+[2024-05-26 19:02:30Z INFO StepsRunner] Location: 'C:\Windows\system32\chcp.COM'
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper] Starting process:
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\system32\chcp.COM'
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-05-26 19:02:30Z INFO JobServerQueue] Try to append 1 batches web console lines for record '8e504e40-58b5-4afa-a100-2b66c8176d43', success rate: 1/1.
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper] Process started with process id 30196, waiting for process exit.
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper] Finished process 30196 with exit code 0, and elapsed time 00:00:00.0266758.
+[2024-05-26 19:02:30Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Actions': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_actions'
+[2024-05-26 19:02:30Z INFO ActionManager] Load action that reference repository from 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_actions\actions\checkout\v2'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Actions': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_actions'
+[2024-05-26 19:02:30Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node12",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2024-05-26 19:02:30Z INFO ActionManager] Action pre node.js file: N/A.
+[2024-05-26 19:02:30Z INFO ActionManager] Action node.js file: dist/index.js.
+[2024-05-26 19:02:30Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2024-05-26 19:02:30Z INFO ExecutionContext] Reserve record order 4 to 6 for post job actions.
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Diag': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_diag'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Diag': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_diag'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Temp': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_temp'
+[2024-05-26 19:02:30Z INFO ExecutionContext] Write event payload to C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_temp\_github_workflow\event.json
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Temp': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_temp'
+[2024-05-26 19:02:30Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2024-05-26 19:02:30Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathFileCommand, Runner.Worker
+[2024-05-26 19:02:30Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvFileCommand, Runner.Worker
+[2024-05-26 19:02:30Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.CreateStepSummaryCommand, Runner.Worker
+[2024-05-26 19:02:30Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateFileCommand, Runner.Worker
+[2024-05-26 19:02:30Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputFileCommand, Runner.Worker
+[2024-05-26 19:02:30Z INFO ActionManifestManager] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "Lazar2201/Preizkusanje_09"
+}
+[2024-05-26 19:02:30Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2024-05-26 19:02:30Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2024-05-26 19:02:30Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2024-05-26 19:02:30Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2024-05-26 19:02:30Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2024-05-26 19:02:30Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 50,
+  "col": 14,
+  "lit": "true"
+}
+[2024-05-26 19:02:30Z INFO ActionManifestManager] Input 'path': default value evaluate result: ""
+[2024-05-26 19:02:30Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 55,
+  "col": 14,
+  "lit": "true"
+}
+[2024-05-26 19:02:30Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 58,
+  "col": 14,
+  "lit": "1"
+}
+[2024-05-26 19:02:30Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 61,
+  "col": 14,
+  "lit": "false"
+}
+[2024-05-26 19:02:30Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 70,
+  "col": 14,
+  "lit": "false"
+}
+[2024-05-26 19:02:30Z INFO ActionManifestManager] Input 'set-safe-directory': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 73,
+  "col": 14,
+  "lit": "true"
+}
+[2024-05-26 19:02:30Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2024-05-26 19:02:30Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.InternalPluginSetRepoPathCommandExtension, Runner.Worker
+[2024-05-26 19:02:30Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvCommandExtension, Runner.Worker
+[2024-05-26 19:02:30Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputCommandExtension, Runner.Worker
+[2024-05-26 19:02:30Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateCommandExtension, Runner.Worker
+[2024-05-26 19:02:30Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathCommandExtension, Runner.Worker
+[2024-05-26 19:02:30Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMaskCommandExtension, Runner.Worker
+[2024-05-26 19:02:30Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMatcherCommandExtension, Runner.Worker
+[2024-05-26 19:02:30Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.RemoveMatcherCommandExtension, Runner.Worker
+[2024-05-26 19:02:30Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.WarningCommandExtension, Runner.Worker
+[2024-05-26 19:02:30Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.ErrorCommandExtension, Runner.Worker
+[2024-05-26 19:02:30Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.NoticeCommandExtension, Runner.Worker
+[2024-05-26 19:02:30Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.DebugCommandExtension, Runner.Worker
+[2024-05-26 19:02:30Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.GroupCommandExtension, Runner.Worker
+[2024-05-26 19:02:30Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EndGroupCommandExtension, Runner.Worker
+[2024-05-26 19:02:30Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EchoCommandExtension, Runner.Worker
+[2024-05-26 19:02:30Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2024-05-26 19:02:30Z INFO ActionCommandManager] Register action command extension for command set-env
+[2024-05-26 19:02:30Z INFO ActionCommandManager] Register action command extension for command set-output
+[2024-05-26 19:02:30Z INFO ActionCommandManager] Register action command extension for command save-state
+[2024-05-26 19:02:30Z INFO ActionCommandManager] Register action command extension for command add-path
+[2024-05-26 19:02:30Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2024-05-26 19:02:30Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2024-05-26 19:02:30Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2024-05-26 19:02:30Z INFO ActionCommandManager] Register action command extension for command warning
+[2024-05-26 19:02:30Z INFO ActionCommandManager] Register action command extension for command error
+[2024-05-26 19:02:30Z INFO ActionCommandManager] Register action command extension for command notice
+[2024-05-26 19:02:30Z INFO ActionCommandManager] Register action command extension for command debug
+[2024-05-26 19:02:30Z INFO ActionCommandManager] Register action command extension for command group
+[2024-05-26 19:02:30Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2024-05-26 19:02:30Z INFO ActionCommandManager] Register action command extension for command echo
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:30Z INFO HostContext] Well known directory 'Externals': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\externals'
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper] Starting process:
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\externals\node16\bin\node.exe'
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper]   Arguments: '"C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_actions\actions\checkout\v2\dist/index.js"'
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\Preizkusanje_09\Preizkusanje_09'
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-05-26 19:02:30Z INFO ProcessInvokerWrapper] Process started with process id 3568, waiting for process exit.
+[2024-05-26 19:02:30Z INFO JobServerQueue] Try to append 1 batches web console lines for record '19335348-c115-5a80-7623-31a327fcb691', success rate: 1/1.
+[2024-05-26 19:02:31Z INFO JobServerQueue] Got a step log file to send to results service.
+[2024-05-26 19:02:31Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_diag\blocks\f2ccd7f9-82d7-4c2a-851d-7df0149eff47_8e504e40-58b5-4afa-a100-2b66c8176d43.1
+[2024-05-26 19:02:31Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2024-05-26 19:02:32Z INFO JobServerQueue] Tried to upload 1 file(s) to results, success rate: 1/1.
+[2024-05-26 19:02:33Z INFO AddMaskCommandExtension] Add new secret mask with length of 76
+[2024-05-26 19:02:33Z INFO JobServerQueue] Try to append 1 batches web console lines for record '19335348-c115-5a80-7623-31a327fcb691', success rate: 1/1.
+[2024-05-26 19:02:33Z INFO JobServerQueue] Try to append 1 batches web console lines for record '19335348-c115-5a80-7623-31a327fcb691', success rate: 1/1.
+[2024-05-26 19:02:34Z INFO JobServerQueue] Try to append 1 batches web console lines for record '19335348-c115-5a80-7623-31a327fcb691', success rate: 1/1.
+[2024-05-26 19:02:34Z INFO JobServerQueue] Try to append 1 batches web console lines for record '19335348-c115-5a80-7623-31a327fcb691', success rate: 1/1.
+[2024-05-26 19:02:36Z INFO JobServerQueue] Try to append 1 batches web console lines for record '19335348-c115-5a80-7623-31a327fcb691', success rate: 1/1.
+[2024-05-26 19:02:38Z INFO JobServerQueue] Try to append 1 batches web console lines for record '19335348-c115-5a80-7623-31a327fcb691', success rate: 1/1.
+[2024-05-26 19:02:39Z INFO JobServerQueue] Try to append 3 batches web console lines for record '19335348-c115-5a80-7623-31a327fcb691', success rate: 3/3.
+[2024-05-26 19:02:39Z INFO JobServerQueue] Try to append 2 batches web console lines for record '19335348-c115-5a80-7623-31a327fcb691', success rate: 2/2.
+[2024-05-26 19:02:39Z INFO JobServerQueue] Try to append 1 batches web console lines for record '19335348-c115-5a80-7623-31a327fcb691', success rate: 1/1.
+[2024-05-26 19:02:39Z INFO JobServerQueue] Try to append 1 batches web console lines for record '19335348-c115-5a80-7623-31a327fcb691', success rate: 1/1.
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper] Finished process 3568 with exit code 0, and elapsed time 00:00:09.4863705.
+[2024-05-26 19:02:40Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_temp\_runner_file_commands\step_summary_82e5cb1e-5f98-440d-af84-e37db273ba25) is empty; skipping attachment upload
+[2024-05-26 19:02:40Z INFO StepsRunner] Step result: 
+[2024-05-26 19:02:40Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v2",
+  "type": "node16",
+  "stage": "Main",
+  "stepId": "19335348-c115-5a80-7623-31a327fcb691",
+  "stepContextName": "__actions_checkout",
+  "hasPreStep": false,
+  "hasPostStep": true,
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 10,
+  "startTime": "2024-05-26T19:02:30.3327664Z",
+  "finishTime": "2024-05-26T19:02:40.0476425Z"
+}.
+[2024-05-26 19:02:40Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2024-05-26 19:02:40Z INFO StepsRunner] Current state: job state = ''
+[2024-05-26 19:02:40Z INFO StepsRunner] Processing step: DisplayName='Run script locally'
+[2024-05-26 19:02:40Z INFO StepsRunner] Evaluating: success()
+[2024-05-26 19:02:40Z INFO StepsRunner] Result: true
+[2024-05-26 19:02:40Z INFO StepsRunner] Starting the step.
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:40Z INFO StepsRunner] Which2: 'chcp'
+[2024-05-26 19:02:40Z INFO StepsRunner] Location: 'C:\Windows\system32\chcp.COM'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper] Starting process:
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\system32\chcp.COM'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper] Process started with process id 22428, waiting for process exit.
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper] Finished process 22428 with exit code 0, and elapsed time 00:00:00.0143218.
+[2024-05-26 19:02:40Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Temp': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_temp'
+[2024-05-26 19:02:40Z INFO ExecutionContext] Write event payload to C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_temp\_github_workflow\event.json
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Temp': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_temp'
+[2024-05-26 19:02:40Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2024-05-26 19:02:40Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command set-env
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command set-output
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command save-state
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command add-path
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command warning
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command error
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command notice
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command debug
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command group
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command echo
+[2024-05-26 19:02:40Z INFO ScriptHandler] Which2: 'pwsh'
+[2024-05-26 19:02:40Z INFO ScriptHandler] pwsh: command not found. Make sure 'pwsh' is installed and its location included in the 'Path' environment variable.
+[2024-05-26 19:02:40Z INFO ScriptHandler] Defaulting to powershell
+[2024-05-26 19:02:40Z INFO ScriptHandler] Which2: 'powershell'
+[2024-05-26 19:02:40Z INFO ScriptHandler] Location: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Temp': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_temp'
+[2024-05-26 19:02:40Z INFO ScriptHandler] Which2: 'pwsh'
+[2024-05-26 19:02:40Z INFO ScriptHandler] pwsh: command not found. Make sure 'pwsh' is installed and its location included in the 'Path' environment variable.
+[2024-05-26 19:02:40Z INFO ScriptHandler] Defaulting to powershell
+[2024-05-26 19:02:40Z INFO ScriptHandler] Which2: 'powershell'
+[2024-05-26 19:02:40Z INFO ScriptHandler] Location: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper] Starting process:
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Arguments: '-command ". 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_temp\4abaedf8-9104-4b3a-a856-c14105689c0d.ps1'"'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\Preizkusanje_09\Preizkusanje_09'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper] Process started with process id 19040, waiting for process exit.
+[2024-05-26 19:02:40Z INFO JobServerQueue] Try to append 1 batches web console lines for record '19335348-c115-5a80-7623-31a327fcb691', success rate: 1/1.
+[2024-05-26 19:02:40Z INFO JobServerQueue] Try to append 1 batches web console lines for record '3fd5ed3b-dc63-593b-cd78-96179aeb580f', success rate: 1/1.
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:40Z INFO JobServerQueue] Got a step log file to send to results service.
+[2024-05-26 19:02:40Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_diag\blocks\f2ccd7f9-82d7-4c2a-851d-7df0149eff47_19335348-c115-5a80-7623-31a327fcb691.1
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper] Finished process 19040 with exit code 1, and elapsed time 00:00:00.4448827.
+[2024-05-26 19:02:40Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_temp\_runner_file_commands\step_summary_30a05374-c7a5-4708-ae23-684a2a6d2081) is empty; skipping attachment upload
+[2024-05-26 19:02:40Z INFO StepsRunner] Step result: Failed
+[2024-05-26 19:02:40Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "powershell",
+  "type": "run",
+  "stage": "Main",
+  "stepId": "3fd5ed3b-dc63-593b-cd78-96179aeb580f",
+  "stepContextName": "__run",
+  "result": "failed",
+  "errorMessages": [
+    "Process completed with exit code 1."
+  ],
+  "executionTimeInSeconds": 1,
+  "startTime": "2024-05-26T19:02:40.0501879Z",
+  "finishTime": "2024-05-26T19:02:40.5903506Z"
+}.
+[2024-05-26 19:02:40Z INFO StepsRunner] Update job result with current step result 'Failed'.
+[2024-05-26 19:02:40Z INFO StepsRunner] Current state: job state = 'Failed'
+[2024-05-26 19:02:40Z INFO StepsRunner] Processing step: DisplayName='Post Checkout repository'
+[2024-05-26 19:02:40Z INFO StepsRunner] Evaluating: always()
+[2024-05-26 19:02:40Z INFO StepsRunner] Result: true
+[2024-05-26 19:02:40Z INFO StepsRunner] Starting the step.
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:40Z INFO StepsRunner] Which2: 'chcp'
+[2024-05-26 19:02:40Z INFO StepsRunner] Location: 'C:\Windows\system32\chcp.COM'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper] Starting process:
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\system32\chcp.COM'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper] Process started with process id 29328, waiting for process exit.
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper] Finished process 29328 with exit code 0, and elapsed time 00:00:00.0133628.
+[2024-05-26 19:02:40Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Actions': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_actions'
+[2024-05-26 19:02:40Z INFO ActionManager] Load action that reference repository from 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_actions\actions\checkout\v2'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Actions': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_actions'
+[2024-05-26 19:02:40Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node12",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2024-05-26 19:02:40Z INFO ActionManager] Action pre node.js file: N/A.
+[2024-05-26 19:02:40Z INFO ActionManager] Action node.js file: dist/index.js.
+[2024-05-26 19:02:40Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Temp': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_temp'
+[2024-05-26 19:02:40Z INFO ExecutionContext] Write event payload to C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_temp\_github_workflow\event.json
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Work': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Temp': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_temp'
+[2024-05-26 19:02:40Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2024-05-26 19:02:40Z INFO ActionManifestManager] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "Lazar2201/Preizkusanje_09"
+}
+[2024-05-26 19:02:40Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2024-05-26 19:02:40Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2024-05-26 19:02:40Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2024-05-26 19:02:40Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2024-05-26 19:02:40Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2024-05-26 19:02:40Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 50,
+  "col": 14,
+  "lit": "true"
+}
+[2024-05-26 19:02:40Z INFO ActionManifestManager] Input 'path': default value evaluate result: ""
+[2024-05-26 19:02:40Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 55,
+  "col": 14,
+  "lit": "true"
+}
+[2024-05-26 19:02:40Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 58,
+  "col": 14,
+  "lit": "1"
+}
+[2024-05-26 19:02:40Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 61,
+  "col": 14,
+  "lit": "false"
+}
+[2024-05-26 19:02:40Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 70,
+  "col": 14,
+  "lit": "false"
+}
+[2024-05-26 19:02:40Z INFO ActionManifestManager] Input 'set-safe-directory': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 73,
+  "col": 14,
+  "lit": "true"
+}
+[2024-05-26 19:02:40Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command set-env
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command set-output
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command save-state
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command add-path
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command warning
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command error
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command notice
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command debug
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command group
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2024-05-26 19:02:40Z INFO ActionCommandManager] Register action command extension for command echo
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:40Z INFO HostContext] Well known directory 'Externals': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\externals'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper] Starting process:
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\externals\node16\bin\node.exe'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Arguments: '"C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_actions\actions\checkout\v2\dist/index.js"'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\Preizkusanje_09\Preizkusanje_09'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-05-26 19:02:40Z INFO ProcessInvokerWrapper] Process started with process id 5412, waiting for process exit.
+[2024-05-26 19:02:40Z INFO JobServerQueue] Try to append 1 batches web console lines for record '3fd5ed3b-dc63-593b-cd78-96179aeb580f', success rate: 1/1.
+[2024-05-26 19:02:40Z INFO JobServerQueue] Try to append 1 batches web console lines for record '511b35b1-741b-4a5a-9c33-25d9122ed3da', success rate: 1/1.
+[2024-05-26 19:02:40Z INFO JobServerQueue] Tried to upload 1 file(s) to results, success rate: 1/1.
+[2024-05-26 19:02:41Z INFO JobServerQueue] Try to upload 2 log files or attachments, success rate: 2/2.
+[2024-05-26 19:02:41Z INFO JobServerQueue] Got a step log file to send to results service.
+[2024-05-26 19:02:41Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_diag\blocks\f2ccd7f9-82d7-4c2a-851d-7df0149eff47_3fd5ed3b-dc63-593b-cd78-96179aeb580f.1
+[2024-05-26 19:02:42Z INFO JobServerQueue] Tried to upload 1 file(s) to results, success rate: 1/1.
+[2024-05-26 19:02:43Z INFO AddMaskCommandExtension] Add new secret mask with length of 32
+[2024-05-26 19:02:43Z INFO JobServerQueue] Try to append 1 batches web console lines for record '511b35b1-741b-4a5a-9c33-25d9122ed3da', success rate: 1/1.
+[2024-05-26 19:02:45Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-26 19:02:45Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-26 19:02:45Z INFO ProcessInvokerWrapper] Finished process 5412 with exit code 0, and elapsed time 00:00:04.3819534.
+[2024-05-26 19:02:45Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_temp\_runner_file_commands\step_summary_3ee3fa84-9c49-4e06-8ebc-c491eda59b46) is empty; skipping attachment upload
+[2024-05-26 19:02:45Z INFO StepsRunner] Step result: 
+[2024-05-26 19:02:45Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v2",
+  "type": "node16",
+  "stage": "Post",
+  "stepId": "511b35b1-741b-4a5a-9c33-25d9122ed3da",
+  "result": "succeeded",
+  "errorMessages": [
+    "The process 'C:\\Program Files\\Git\\mingw64\\bin\\git.exe' failed with exit code 128"
+  ],
+  "executionTimeInSeconds": 5,
+  "startTime": "2024-05-26T19:02:40.59396Z",
+  "finishTime": "2024-05-26T19:02:45.0206949Z"
+}.
+[2024-05-26 19:02:45Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2024-05-26 19:02:45Z INFO StepsRunner] Current state: job state = 'Failed'
+[2024-05-26 19:02:45Z INFO JobRunner] Finalize job.
+[2024-05-26 19:02:45Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:45Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:45Z INFO HostContext] Well known directory 'Diag': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_diag'
+[2024-05-26 19:02:45Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:45Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:45Z INFO HostContext] Well known directory 'Diag': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_diag'
+[2024-05-26 19:02:45Z INFO JobExtension] Initialize Env context
+[2024-05-26 19:02:45Z INFO JobExtension] Initialize steps context
+[2024-05-26 19:02:45Z INFO JobExtension] Total accessible running process: 251.
+[2024-05-26 19:02:45Z INFO JobExtension] Inspecting process environment variables. PID: 29288 (bash)
+[2024-05-26 19:02:45Z INFO JobExtension] Inspecting process environment variables. PID: 6968 (cmd)
+[2024-05-26 19:02:45Z INFO JobExtension] Inspecting process environment variables. PID: 18172 (Runner.Listener)
+[2024-05-26 19:02:45Z INFO JobExtension] Wait for all connectivity checks to finish.
+[2024-05-26 19:02:45Z INFO JobExtension] Connectivity check result: https://acghubeus0.actions.githubusercontent.com/_apis/health: OK
+[2024-05-26 19:02:45Z INFO JobExtension] Connectivity check result: https://results-receiver.actions.githubusercontent.com/health: OK
+[2024-05-26 19:02:45Z INFO JobExtension] Connectivity check result: https://actions-results-receiver-production.githubapp.com/health: OK
+[2024-05-26 19:02:45Z INFO JobExtension] Connectivity check result: https://pipelinesghubeus5.actions.githubusercontent.com/_apis/health: OK
+[2024-05-26 19:02:45Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "complete_job",
+  "type": "runner",
+  "stage": "Post",
+  "stepId": "1a7701b9-4142-4502-b120-2b622be309a2",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2024-05-26T19:02:45.0519222Z",
+  "finishTime": "2024-05-26T19:02:45.0854679Z"
+}.
+[2024-05-26 19:02:45Z INFO JobRunner] Job result after all job steps finish: Failed
+[2024-05-26 19:02:45Z INFO JobRunner] Completing the job execution context.
+[2024-05-26 19:02:45Z INFO JobRunner] Shutting down the job server queue.
+[2024-05-26 19:02:45Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2024-05-26 19:02:46Z INFO JobServerQueue] All queue process task stopped.
+[2024-05-26 19:02:46Z INFO JobServerQueue] Try to append 1 batches web console lines for record '511b35b1-741b-4a5a-9c33-25d9122ed3da', success rate: 1/1.
+[2024-05-26 19:02:46Z INFO JobServerQueue] Try to append 1 batches web console lines for record '1a7701b9-4142-4502-b120-2b622be309a2', success rate: 1/1.
+[2024-05-26 19:02:46Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a84cab50-81db-52ed-5ec5-00b63f446852', success rate: 1/1.
+[2024-05-26 19:02:46Z INFO JobServerQueue] Web console line queue drained.
+[2024-05-26 19:02:46Z INFO JobServerQueue] Uploading 3 files in one shot.
+[2024-05-26 19:02:47Z INFO JobServerQueue] Try to upload 3 log files or attachments, success rate: 3/3.
+[2024-05-26 19:02:47Z INFO JobServerQueue] File upload queue drained.
+[2024-05-26 19:02:47Z INFO JobServerQueue] Starting results-based upload queue...
+[2024-05-26 19:02:47Z INFO JobServerQueue] Uploading 3 file(s) in one shot through results service.
+[2024-05-26 19:02:47Z INFO JobServerQueue] Got a step log file to send to results service.
+[2024-05-26 19:02:47Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_diag\blocks\f2ccd7f9-82d7-4c2a-851d-7df0149eff47_511b35b1-741b-4a5a-9c33-25d9122ed3da.1
+[2024-05-26 19:02:47Z INFO JobServerQueue] Got a step log file to send to results service.
+[2024-05-26 19:02:47Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_diag\blocks\f2ccd7f9-82d7-4c2a-851d-7df0149eff47_1a7701b9-4142-4502-b120-2b622be309a2.1
+[2024-05-26 19:02:48Z INFO JobServerQueue] Got a job log file to send to results service.
+[2024-05-26 19:02:48Z INFO JobServerQueue] Starting upload of job log file to results service ResultsLog, C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_diag\blocks\f2ccd7f9-82d7-4c2a-851d-7df0149eff47_a84cab50-81db-52ed-5ec5-00b63f446852.1
+[2024-05-26 19:02:48Z INFO JobServerQueue] Tried to upload 3 file(s) to results, success rate: 3/3.
+[2024-05-26 19:02:48Z INFO JobServerQueue] Results upload queue drained.
+[2024-05-26 19:02:48Z INFO JobServerQueue] Timeline update queue drained.
+[2024-05-26 19:02:48Z INFO JobServerQueue] Disposing job server ...
+[2024-05-26 19:02:48Z INFO JobServerQueue] Disposing results server ...
+[2024-05-26 19:02:48Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2024-05-26 19:02:48Z INFO JobServerQueue] Actions upload time: 2432 ms, Result upload time: 3429 ms
+[2024-05-26 19:02:48Z INFO TempDirectoryManager] Cleaning runner temp folder: C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_work\_temp
+[2024-05-26 19:02:48Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:48Z INFO HostContext] Well known directory 'Root': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1'
+[2024-05-26 19:02:48Z INFO HostContext] Well known directory 'Diag': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_diag'
+[2024-05-26 19:02:48Z INFO HostContext] Well known config file 'Telemetry': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\_diag\.telemetry'
+[2024-05-26 19:02:48Z INFO JobRunner] Raising job completed event
+[2024-05-26 19:02:48Z INFO Worker] Job completed.

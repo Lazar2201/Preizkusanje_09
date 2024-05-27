@@ -102,3 +102,363 @@
 [2024-05-26 18:53:59Z INFO RunnerServer] EstablishVssConnection
 [2024-05-26 18:53:59Z INFO RunnerServer] Establish connection with 60 seconds timeout.
 [2024-05-26 18:53:59Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-05-26 18:54:00Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-05-26 18:54:00Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-05-26 18:54:00Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-05-26 18:54:00Z INFO MessageListener] VssConnection created
+[2024-05-26 18:54:00Z INFO Terminal] WRITE LINE: 
+[2024-05-26 18:54:00Z INFO Terminal] WRITE LINE: 
+[2024-05-26 18:54:00Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\.credentials_rsaparams
+[2024-05-26 18:54:00Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\.credentials_rsaparams
+[2024-05-26 18:54:01Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-05-26 18:54:01Z INFO MessageListener] Session created.
+[2024-05-26 18:54:01Z INFO Terminal] WRITE LINE: Current runner version: '2.316.1'
+[2024-05-26 18:54:01Z INFO Terminal] WRITE LINE: 2024-05-26 18:54:01Z: Listening for Jobs
+[2024-05-26 18:54:01Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2024-05-26 18:54:05Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\.credentials_rsaparams
+[2024-05-26 18:54:05Z INFO MessageListener] Message '1' received from session '94d6ef71-5fc3-4a44-8638-fc15dce1dbb8'.
+[2024-05-26 18:54:05Z INFO Runner] Received job message of length 23461 from service, with hash 'c95e2147f0aefce7778020ed4df02f8bcd6e991922e178ea16f80a0377708b95'
+[2024-05-26 18:54:05Z INFO JobDispatcher] Job request 26 for plan d6d07e01-e802-4cdb-92c4-64dd12a4d2c1 job a84cab50-81db-52ed-5ec5-00b63f446852 received.
+[2024-05-26 18:54:05Z INFO JobDispatcher] Pull OrchestrationId d6d07e01-e802-4cdb-92c4-64dd12a4d2c1.run-locally.__default from JWT claims
+[2024-05-26 18:54:05Z INFO MessageListener] Received job status event. JobState: Busy
+[2024-05-26 18:54:05Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2024-05-26 18:54:05Z INFO Terminal] WRITE LINE: 2024-05-26 18:54:05Z: Running job: run-locally
+[2024-05-26 18:54:05Z INFO JobDispatcher] Start renew job request 26 for job a84cab50-81db-52ed-5ec5-00b63f446852.
+[2024-05-26 18:54:05Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 05/26/2024 19:04:06
+[2024-05-26 18:54:05Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 18:54:05Z INFO ProcessInvokerWrapper] Starting process:
+[2024-05-26 18:54:05Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin\Runner.Worker.exe'
+[2024-05-26 18:54:05Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2144 2168'
+[2024-05-26 18:54:05Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 18:54:05Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-05-26 18:54:05Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-05-26 18:54:05Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-05-26 18:54:05Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-05-26 18:54:05Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-05-26 18:54:05Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-05-26 18:54:05Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-05-26 18:54:05Z INFO ProcessInvokerWrapper] Process started with process id 16580, waiting for process exit.
+[2024-05-26 18:54:05Z INFO JobDispatcher] Send job request message to worker for job a84cab50-81db-52ed-5ec5-00b63f446852.
+[2024-05-26 18:54:06Z INFO ProcessChannel] Sending message of length 23461, with hash 'c95e2147f0aefce7778020ed4df02f8bcd6e991922e178ea16f80a0377708b95'
+[2024-05-26 18:54:06Z INFO JobNotification] Entering JobStarted Notification
+[2024-05-26 18:54:06Z INFO JobNotification] Entering StartMonitor
+[2024-05-26 18:55:06Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 05/26/2024 19:05:07
+[2024-05-26 18:55:30Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-26 18:55:30Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-26 18:55:30Z INFO ProcessInvokerWrapper] Finished process 16580 with exit code 102, and elapsed time 00:01:24.5440973.
+[2024-05-26 18:55:30Z INFO JobDispatcher] Worker finished for job a84cab50-81db-52ed-5ec5-00b63f446852. Code: 102
+[2024-05-26 18:55:30Z INFO JobDispatcher] finish job request for job a84cab50-81db-52ed-5ec5-00b63f446852 with result: Failed
+[2024-05-26 18:55:30Z INFO Terminal] WRITE LINE: 2024-05-26 18:55:30Z: Job run-locally completed with result: Failed
+[2024-05-26 18:55:30Z INFO JobDispatcher] Stop renew job request for job a84cab50-81db-52ed-5ec5-00b63f446852.
+[2024-05-26 18:55:30Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 26.
+[2024-05-26 18:55:30Z INFO JobNotification] Entering JobCompleted Notification
+[2024-05-26 18:55:30Z INFO JobNotification] Entering EndMonitor
+[2024-05-26 18:55:30Z INFO MessageListener] Received job status event. JobState: Online
+[2024-05-26 18:55:30Z WARN GitHubActionsService] GET request to https://pipelinesghubeus5.actions.githubusercontent.com/6ChMJZHkcolBhkQUAqT38oPLcHejAEdjLNciU0ZQ8IYkh6lDwy/_apis/distributedtask/pools/1/messages?sessionId=94d6ef71-5fc3-4a44-8638-fc15dce1dbb8&lastMessageId=1&status=Busy&runnerVersion=2.316.1&os=Windows&architecture=X64&disableUpdate=false has been cancelled.
+[2024-05-26 18:55:30Z INFO MessageListener] Get messages has been cancelled using local token source. Continue to get messages with new status.
+[2024-05-26 19:02:25Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\.credentials_rsaparams
+[2024-05-26 19:02:25Z INFO MessageListener] Message '2' received from session '94d6ef71-5fc3-4a44-8638-fc15dce1dbb8'.
+[2024-05-26 19:02:25Z INFO Runner] Received job message of length 22936 from service, with hash 'eb376e9892675bdb715b0048eec202fafae0fa623be83f6c5fac029ef193b485'
+[2024-05-26 19:02:25Z INFO JobDispatcher] Job request 30 for plan f2ccd7f9-82d7-4c2a-851d-7df0149eff47 job a84cab50-81db-52ed-5ec5-00b63f446852 received.
+[2024-05-26 19:02:25Z INFO JobDispatcher] Pull OrchestrationId f2ccd7f9-82d7-4c2a-851d-7df0149eff47.run-locally.__default from JWT claims
+[2024-05-26 19:02:25Z INFO MessageListener] Received job status event. JobState: Busy
+[2024-05-26 19:02:25Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2024-05-26 19:02:25Z INFO JobDispatcher] Job request a84cab50-81db-52ed-5ec5-00b63f446852 processed succeed.
+[2024-05-26 19:02:25Z INFO Terminal] WRITE LINE: 2024-05-26 19:02:25Z: Running job: run-locally
+[2024-05-26 19:02:25Z INFO JobDispatcher] Start renew job request 30 for job a84cab50-81db-52ed-5ec5-00b63f446852.
+[2024-05-26 19:02:26Z INFO JobDispatcher] Successfully renew job request 30, job is valid till 05/26/2024 19:12:27
+[2024-05-26 19:02:26Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:26Z INFO ProcessInvokerWrapper] Starting process:
+[2024-05-26 19:02:26Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin\Runner.Worker.exe'
+[2024-05-26 19:02:26Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2204 2352'
+[2024-05-26 19:02:26Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\bin'
+[2024-05-26 19:02:26Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-05-26 19:02:26Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-05-26 19:02:26Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-05-26 19:02:26Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-05-26 19:02:26Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-05-26 19:02:26Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-05-26 19:02:26Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-05-26 19:02:26Z INFO ProcessInvokerWrapper] Process started with process id 28892, waiting for process exit.
+[2024-05-26 19:02:26Z INFO JobDispatcher] Send job request message to worker for job a84cab50-81db-52ed-5ec5-00b63f446852.
+[2024-05-26 19:02:26Z INFO ProcessChannel] Sending message of length 22936, with hash 'eb376e9892675bdb715b0048eec202fafae0fa623be83f6c5fac029ef193b485'
+[2024-05-26 19:02:26Z INFO JobNotification] Entering JobStarted Notification
+[2024-05-26 19:02:26Z INFO JobNotification] Entering StartMonitor
+[2024-05-26 19:02:48Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-26 19:02:48Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-26 19:02:48Z INFO ProcessInvokerWrapper] Finished process 28892 with exit code 102, and elapsed time 00:00:22.6935918.
+[2024-05-26 19:02:48Z INFO JobDispatcher] Worker finished for job a84cab50-81db-52ed-5ec5-00b63f446852. Code: 102
+[2024-05-26 19:02:48Z INFO JobDispatcher] finish job request for job a84cab50-81db-52ed-5ec5-00b63f446852 with result: Failed
+[2024-05-26 19:02:48Z INFO Terminal] WRITE LINE: 2024-05-26 19:02:48Z: Job run-locally completed with result: Failed
+[2024-05-26 19:02:48Z INFO JobDispatcher] Stop renew job request for job a84cab50-81db-52ed-5ec5-00b63f446852.
+[2024-05-26 19:02:48Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 30.
+[2024-05-26 19:02:48Z INFO JobNotification] Entering JobCompleted Notification
+[2024-05-26 19:02:48Z INFO JobNotification] Entering EndMonitor
+[2024-05-26 19:02:48Z INFO MessageListener] Received job status event. JobState: Online
+[2024-05-26 19:02:48Z WARN GitHubActionsService] GET request to https://pipelinesghubeus5.actions.githubusercontent.com/6ChMJZHkcolBhkQUAqT38oPLcHejAEdjLNciU0ZQ8IYkh6lDwy/_apis/distributedtask/pools/1/messages?sessionId=94d6ef71-5fc3-4a44-8638-fc15dce1dbb8&lastMessageId=2&status=Busy&runnerVersion=2.316.1&os=Windows&architecture=X64&disableUpdate=false has been cancelled.
+[2024-05-26 19:02:48Z INFO MessageListener] Get messages has been cancelled using local token source. Continue to get messages with new status.
+[2024-05-26 19:32:55Z INFO MessageListener] No message retrieved from session '94d6ef71-5fc3-4a44-8638-fc15dce1dbb8' within last 30 minutes.
+[2024-05-26 19:49:39Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\.credentials_rsaparams
+[2024-05-26 19:49:40Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-05-26 20:03:03Z INFO MessageListener] No message retrieved from session '94d6ef71-5fc3-4a44-8638-fc15dce1dbb8' within last 30 minutes.
+[2024-05-26 20:38:58Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelinesghubeus5.actions.githubusercontent.com/6ChMJZHkcolBhkQUAqT38oPLcHejAEdjLNciU0ZQ8IYkh6lDwy/_apis/distributedtask/pools/1/messages?sessionId=94d6ef71-5fc3-4a44-8638-fc15dce1dbb8&lastMessageId=2&status=Online&runnerVersion=2.316.1&os=Windows&architecture=X64&disableUpdate=false failed (Socket Error: ConnectionAborted). The operation will be retried in 11.022 seconds.
+[2024-05-26 20:39:09Z ERR  GitHubActionsService] GET request to https://pipelinesghubeus5.actions.githubusercontent.com/6ChMJZHkcolBhkQUAqT38oPLcHejAEdjLNciU0ZQ8IYkh6lDwy/_apis/distributedtask/pools/1/messages?sessionId=94d6ef71-5fc3-4a44-8638-fc15dce1dbb8&lastMessageId=2&status=Online&runnerVersion=2.316.1&os=Windows&architecture=X64&disableUpdate=false failed. System.Net.Http.HttpRequestException: No such host is known. (pipelinesghubeus5.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2024-05-26 20:39:09Z ERR  MessageListener] Catch exception during get next message.
+[2024-05-26 20:39:09Z ERR  MessageListener] System.Net.Http.HttpRequestException: No such host is known. (pipelinesghubeus5.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2024-05-26 20:39:09Z ERR  MessageListener] #####################################################
+[2024-05-26 20:39:09Z ERR  MessageListener] System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2024-05-26 20:39:09Z INFO MessageListener] Retriable exception: No such host is known. (pipelinesghubeus5.actions.githubusercontent.com:443)
+[2024-05-26 20:39:09Z ERR  Terminal] WRITE ERROR: 2024-05-26 20:39:09Z: Runner connect error: No such host is known. (pipelinesghubeus5.actions.githubusercontent.com:443). Retrying until reconnected.
+[2024-05-26 20:39:09Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2024-05-26 20:39:09Z INFO RunnerServer] EstablishVssConnection
+[2024-05-26 20:39:09Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-05-26 20:39:10Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-05-26 20:39:10Z ERR  GitHubActionsService] GET request to https://pipelinesghubeus5.actions.githubusercontent.com/6ChMJZHkcolBhkQUAqT38oPLcHejAEdjLNciU0ZQ8IYkh6lDwy/_apis/connectionData?connectOptions=1&lastChangeId=3751939&lastChangeId64=3751939 failed. System.Net.Http.HttpRequestException: No such host is known. (pipelinesghubeus5.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2024-05-26 20:39:10Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-05-26 20:39:10Z INFO RunnerServer] Catch exception during connect. 4 attempt left.
+[2024-05-26 20:39:10Z ERR  RunnerServer] System.Net.Http.HttpRequestException: No such host is known. (pipelinesghubeus5.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2024-05-26 20:39:10Z ERR  RunnerServer] #####################################################
+[2024-05-26 20:39:10Z ERR  RunnerServer] System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2024-05-26 20:39:10Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-05-26 20:39:10Z ERR  GitHubActionsService] GET request to https://pipelinesghubeus5.actions.githubusercontent.com/6ChMJZHkcolBhkQUAqT38oPLcHejAEdjLNciU0ZQ8IYkh6lDwy/_apis/connectionData?connectOptions=1&lastChangeId=3751939&lastChangeId64=3751939 failed. System.Net.Http.HttpRequestException: No such host is known. (pipelinesghubeus5.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2024-05-26 20:39:10Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-05-26 20:39:10Z INFO RunnerServer] Catch exception during connect. 3 attempt left.
+[2024-05-26 20:39:10Z ERR  RunnerServer] System.Net.Http.HttpRequestException: No such host is known. (pipelinesghubeus5.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2024-05-26 20:39:10Z ERR  RunnerServer] #####################################################
+[2024-05-26 20:39:10Z ERR  RunnerServer] System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2024-05-26 20:39:10Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-05-26 20:39:10Z ERR  GitHubActionsService] GET request to https://pipelinesghubeus5.actions.githubusercontent.com/6ChMJZHkcolBhkQUAqT38oPLcHejAEdjLNciU0ZQ8IYkh6lDwy/_apis/connectionData?connectOptions=1&lastChangeId=3751939&lastChangeId64=3751939 failed. System.Net.Http.HttpRequestException: No such host is known. (pipelinesghubeus5.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2024-05-26 20:39:10Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-05-26 20:39:10Z INFO RunnerServer] Catch exception during connect. 2 attempt left.
+[2024-05-26 20:39:10Z ERR  RunnerServer] System.Net.Http.HttpRequestException: No such host is known. (pipelinesghubeus5.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2024-05-26 20:39:10Z ERR  RunnerServer] #####################################################
+[2024-05-26 20:39:10Z ERR  RunnerServer] System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2024-05-26 20:39:11Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-05-26 20:39:12Z ERR  GitHubActionsService] GET request to https://pipelinesghubeus5.actions.githubusercontent.com/6ChMJZHkcolBhkQUAqT38oPLcHejAEdjLNciU0ZQ8IYkh6lDwy/_apis/connectionData?connectOptions=1&lastChangeId=3751939&lastChangeId64=3751939 failed. System.Net.Http.HttpRequestException: No such host is known. (pipelinesghubeus5.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2024-05-26 20:39:12Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-05-26 20:39:12Z INFO RunnerServer] Catch exception during connect. 1 attempt left.
+[2024-05-26 20:39:12Z ERR  RunnerServer] System.Net.Http.HttpRequestException: No such host is known. (pipelinesghubeus5.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2024-05-26 20:39:12Z ERR  RunnerServer] #####################################################
+[2024-05-26 20:39:12Z ERR  RunnerServer] System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2024-05-26 20:39:12Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-05-26 20:39:12Z ERR  GitHubActionsService] GET request to https://pipelinesghubeus5.actions.githubusercontent.com/6ChMJZHkcolBhkQUAqT38oPLcHejAEdjLNciU0ZQ8IYkh6lDwy/_apis/connectionData?connectOptions=1&lastChangeId=3751939&lastChangeId64=3751939 failed. System.Net.Http.HttpRequestException: No such host is known. (pipelinesghubeus5.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2024-05-26 20:39:12Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-05-26 20:39:12Z ERR  RunnerServer] Catch exception during reset MessageQueue connection.
+[2024-05-26 20:39:12Z ERR  RunnerServer] System.Net.Http.HttpRequestException: No such host is known. (pipelinesghubeus5.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+   at GitHub.Runner.Common.RunnerServer.RefreshConnectionAsync(RunnerConnectionType connectionType, TimeSpan timeout)
+[2024-05-26 20:39:12Z ERR  RunnerServer] #####################################################
+[2024-05-26 20:39:12Z ERR  RunnerServer] System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2024-05-26 20:39:12Z INFO MessageListener] Sleeping for 25.893 seconds before retrying.
+[2024-05-26 20:39:38Z INFO MessageListener] No message retrieved from session '94d6ef71-5fc3-4a44-8638-fc15dce1dbb8' within last 30 minutes.
+[2024-05-26 20:40:29Z INFO Terminal] WRITE LINE: 2024-05-26 20:40:29Z: Runner reconnected.
+[2024-05-26 20:45:30Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Lazar\Documents\Naloga02\actions-runner\actions-runner-win-x64-2.316.1\.credentials_rsaparams
+[2024-05-26 20:45:30Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-05-26 21:09:45Z INFO MessageListener] No message retrieved from session '94d6ef71-5fc3-4a44-8638-fc15dce1dbb8' within last 30 minutes.
